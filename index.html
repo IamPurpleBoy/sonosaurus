@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Inicio - Sonosaurus</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS de Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Iconos de FontsAwsome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" crossorigin="anonymous">
+
+    <!-- Fuentes de Google Material-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tourney:wght@600&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap" rel="stylesheet">
+    <!-- JS de Bootstrap-->
+    <script src="public/bootstrap/js/bootstrap.min.js"></script>
+
+    <script src="js/scripts.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
+</head>
+
+<body background="./imagenes/imagen9.jpg">
+    <header>
+        <iframe src="/paginas/header.html" width="100%" height="100" frameborder="0" scrolling="no">
+        </iframe>
+    </header>
+    <main>
+        <section>
+            <div class="container" id="carousel-container" style="text-align: center;">
+                <div class="col"><h1>Últimos lanzamientos</h1></div>
+                <div class="carousel slide carousel-fade" id="carousel" >
+                    <div id="carouselControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="rounded mx-auto d-block" src="imagenes/imagen2.jpg" id="item"
+                                    alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="rounded mx-auto d-block" src="imagenes/imagen.jpg" id="item2"
+                                    alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="rounded mx-auto d-block" src="imagenes/imagen3.jpg" id="item3"
+                                    alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselControls"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    
+        <section>
+            <div class="eventos">
+                <h3>Próximos eventos</h3>
+                <!-- Aquí iría el código para mostrar los próximos eventos via API -->
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident sunt veritatis reiciendis neque
+                    eum rem nemo dolores sequi laudantium nam sed a quas tenetur ad, aperiam rerum delectus, voluptatem
+                    mollitia.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <iframe src="/paginas/footer.html" width="100%" height="100" frameborder="0" scrolling="no">
+        </iframe>
+    </footer>
+
+
+</body>
+
+</html>
