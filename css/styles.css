@@ -345,10 +345,10 @@ nav a:hover {
   }
   }
   
-  #background-vid video{
+#background-vid video{
 height: 100%;
 width:100%;
 position:fixed;
 object-fit: cover;
 z-index: -1;
-  }
+}
